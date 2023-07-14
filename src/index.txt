@@ -7,7 +7,7 @@ Height: 24
 
 #include "punct/2x.txt"
 
-// TODO: numbers
+#include "numbers.txt"
 #include "punct/3a-40.txt"
 
 #include "alpha_lower.txt"
