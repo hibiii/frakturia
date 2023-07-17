@@ -1,6 +1,6 @@
 .PHONY: deps apply clean
 
-files = src/index.txt src/alpha_lower.txt src/numbers.txt src/punct/2x.txt src/punct/3a-40.txt
+files = src/index.txt src/alpha_lower.txt src/alpha_upper.txt src/numbers.txt src/punct/2x.txt src/punct/3a-40.txt
 
 frakturia.psf: $(files)
 	cpp src/index.txt -P | txt2psf > frakturia.psf
@@ -12,6 +12,7 @@ apply: frakturia.psf
 	@echo the quick brown fox jumps over the lazy dog
 
 deps:
+	@which cpp > /dev/null
 	@which txt2psf > /dev/null
 	@echo all ok!
 
