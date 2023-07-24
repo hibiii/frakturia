@@ -5,11 +5,18 @@ Length: 256
 Width: 10
 Height: 24
 
+// 437 00 .. 1F
+#include "punct/0x.txt"
+#include "punct/1x.txt"
+
+// Blank position 32 (0x20)
+#include "space.txt"
+
+// 437 21 .. 2F
 #include "punct/2x.txt"
 
+// 437 30 .. 7F
 #include "numbers.txt"
 #include "punct/3a-40.txt"
-
 #include "alpha_upper.txt"
-
 #include "alpha_lower.txt"

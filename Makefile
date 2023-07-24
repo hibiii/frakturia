@@ -1,6 +1,7 @@
 .PHONY: deps apply clean
+SHELL=/bin/bash -o pipefail
 
-files = src/index.txt src/alpha_lower.txt src/alpha_upper.txt src/numbers.txt src/punct/2x.txt src/punct/3a-40.txt
+files = src/*.txt src/punct/*.txt
 
 frakturia.psf: $(files)
 	cpp src/index.txt -P | txt2psf > frakturia.psf

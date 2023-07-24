@@ -19,9 +19,9 @@ the font on your console with `setfont`, no args.
 
 The end goal is to support codepage 437 and Windows-1252.
 
-To compile, you need `make`, a C preprocessor (bundled with any C compiler), and
-`psftools`. You can check if you have them installed with `make deps`. Compile
-by running `make` or `make frakturia.psf`.
+To compile, you need Bash, `make`, a C preprocessor (bundled with any C
+compiler), and `psftools`. You can check if you have them installed with
+`make deps`. Compile by running `make` or `make frakturia.psf`.
 
 This font is available under the Unlicense license. Feel free to learn from it
 and incorporate it in your own projects.

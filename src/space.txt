@@ -1,0 +1,38 @@
+// The SPACE glyph is important because it is (supposed) to be nonblank. On VGA
+// cards and in ASCII (and compatible codepages), the space is on position
+// 32 (0x20). The reason why this is important is that VGA and the Linux virtual
+// console both use position 32 for drawing a blank character, regardless if it
+// is blank or not.
+
+#ifndef SPACE_TXT
+#define SPACE_TXT
+
+%
+Bitmap: \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - - \
+- - - - - - - - - -
+Unicode: [00000020];[00000000];[000000A0];
+
+#endif
