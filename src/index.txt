@@ -19,4 +19,6 @@ Height: 24
 #include "numbers.txt"
 #include "punct/3a-40.txt"
 #include "alpha_upper.txt"
+#include "punct/5b-60.txt"
 #include "alpha_lower.txt"
+#include "punct/7b-7f.txt"
